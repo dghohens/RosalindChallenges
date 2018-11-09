@@ -27,11 +27,4 @@ for i in file_content:
 print(dna.values())
 
 
-
-
-
-
-
-
-
 file_open.close()
