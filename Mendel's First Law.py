@@ -20,3 +20,6 @@ heterozygous = input()
 print('Recessive homozygous:')
 rec_homozygous = input()
 
+total_members = dom_homozygous + heterozygous + rec_homozygous
+
+dom_probability = ((dom_homozygous * (total_members-1)))
